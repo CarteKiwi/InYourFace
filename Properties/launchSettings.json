@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "InYourFace (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "InYourFace (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
