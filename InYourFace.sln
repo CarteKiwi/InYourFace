@@ -5,8 +5,6 @@ VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InYourFace", "InYourFace.csproj", "{E32039AD-8A8F-408D-8CFD-F0DED5A9F22E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedInBanner", "..\LinkedInBanner\LinkedInBanner.csproj", "{6F24E92F-3154-45C0-A828-010696EFE4FA}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM64 = Debug|ARM64
@@ -35,24 +33,6 @@ Global
 		{E32039AD-8A8F-408D-8CFD-F0DED5A9F22E}.Release|x86.ActiveCfg = Release|x86
 		{E32039AD-8A8F-408D-8CFD-F0DED5A9F22E}.Release|x86.Build.0 = Release|x86
 		{E32039AD-8A8F-408D-8CFD-F0DED5A9F22E}.Release|x86.Deploy.0 = Release|x86
-		{6F24E92F-3154-45C0-A828-010696EFE4FA}.Debug|ARM64.ActiveCfg = Debug|ARM64
-		{6F24E92F-3154-45C0-A828-010696EFE4FA}.Debug|ARM64.Build.0 = Debug|ARM64
-		{6F24E92F-3154-45C0-A828-010696EFE4FA}.Debug|ARM64.Deploy.0 = Debug|ARM64
-		{6F24E92F-3154-45C0-A828-010696EFE4FA}.Debug|x64.ActiveCfg = Debug|x64
-		{6F24E92F-3154-45C0-A828-010696EFE4FA}.Debug|x64.Build.0 = Debug|x64
-		{6F24E92F-3154-45C0-A828-010696EFE4FA}.Debug|x64.Deploy.0 = Debug|x64
-		{6F24E92F-3154-45C0-A828-010696EFE4FA}.Debug|x86.ActiveCfg = Debug|x86
-		{6F24E92F-3154-45C0-A828-010696EFE4FA}.Debug|x86.Build.0 = Debug|x86
-		{6F24E92F-3154-45C0-A828-010696EFE4FA}.Debug|x86.Deploy.0 = Debug|x86
-		{6F24E92F-3154-45C0-A828-010696EFE4FA}.Release|ARM64.ActiveCfg = Release|ARM64
-		{6F24E92F-3154-45C0-A828-010696EFE4FA}.Release|ARM64.Build.0 = Release|ARM64
-		{6F24E92F-3154-45C0-A828-010696EFE4FA}.Release|ARM64.Deploy.0 = Release|ARM64
-		{6F24E92F-3154-45C0-A828-010696EFE4FA}.Release|x64.ActiveCfg = Release|x64
-		{6F24E92F-3154-45C0-A828-010696EFE4FA}.Release|x64.Build.0 = Release|x64
-		{6F24E92F-3154-45C0-A828-010696EFE4FA}.Release|x64.Deploy.0 = Release|x64
-		{6F24E92F-3154-45C0-A828-010696EFE4FA}.Release|x86.ActiveCfg = Release|x86
-		{6F24E92F-3154-45C0-A828-010696EFE4FA}.Release|x86.Build.0 = Release|x86
-		{6F24E92F-3154-45C0-A828-010696EFE4FA}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
