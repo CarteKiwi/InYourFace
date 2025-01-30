@@ -6,91 +6,11 @@
     xmlns:local="using:InYourFace"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    
     mc:Ignorable="d"
     Title="Guillaume DEMICHELI">
 
     <Grid VerticalAlignment="Stretch">
-        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,40,0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition/>
-                <RowDefinition Height="Auto"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-
-            <Border x:Name="AppTitleBar" VerticalAlignment="Top">
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock x:Name="AppTitle" Text="Guillaume Demicheli" VerticalAlignment="Top" Margin="20,18,0,0" FontSize="25" />
-                    <Frame Background="LightGreen" Width="4px" VerticalAlignment="Stretch" Margin="10,18,8,2"/>
-                    <TextBlock HorizontalAlignment="Right" VerticalAlignment="Center" Text="freelance" FontSize="22" Margin="0,18,0,0" FontStyle="Oblique" 
-                               FontFamily="Segoe UI" FontWeight="SemiLight"/>
-                </StackPanel>
-            </Border>
-
-            <StackPanel Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="40,40">
-                <Button HorizontalAlignment="Center" FontSize="24" Margin="0,0,0,-5" FontStyle="Oblique" FontFamily="Segoe UI" FontWeight="SemiLight">
-                    <Button.Background>
-                        <SolidColorBrush Color="LightGray" Opacity=".6"/>
-                    </Button.Background>
-                    <StackPanel Orientation="Horizontal">
-                        <SymbolIcon Symbol="Mail" Margin="0,0,15,0" Foreground="Black"/>
-                        <TextBlock Text="guillaume.demicheli@loctet.com" Foreground="Black"/>
-                    </StackPanel>
-                </Button>
-            </StackPanel>
-
-            <Grid Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right" RowSpacing="-10">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition Width="Auto"/>
-                </Grid.ColumnDefinitions>
-                <Frame Grid.RowSpan="2" HorizontalAlignment="Left" Background="CornflowerBlue" Width="6px" VerticalAlignment="Stretch" Margin="10,10,8,0"/>
-
-                <TextBlock Grid.Column="1" HorizontalAlignment="Center" Text="Software Developer" FontSize="40" Margin="0,0" FontFamily="Segoe UI" FontWeight="SemiBold"/>
-
-                <TextBlock Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" Text="Desktop / mobile" FontSize="25" Margin="0,0" Typography.Capitals="AllSmallCaps" FontFamily="Segoe UI" FontWeight="SemiLight"/>
-            </Grid>
-
-            <!--<Border Grid.Row="1" Grid.RowSpan="3" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="250,0,0,0">
-                <TextBlock FontStyle="Italic" TextWrapping="WrapWholeWords">
-                <Run Text="&#xe849;" FontSize="18" FontFamily="Segoe Fluent Icons"/>
-                <Run Text="&#xe849;" FontSize="18" FontFamily="Segoe Fluent Icons"/>
-                <Run Text=" I help you build your PC and iOS/Droid crossplatform mobile applications." FontSize="28" FontFamily="Segoe UI"/>
-                <Run Text="&#xe848;" FontSize="18" FontFamily="Segoe Fluent Icons"/>
-                <Run Text="&#xe848;" FontSize="18" FontFamily="Segoe Fluent Icons"/>
-                </TextBlock>
-            </Border>-->
-
-            <Border Grid.Row="1" Grid.RowSpan="3" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="250,0,0,0"
-                    BorderThickness="2" BorderBrush="WhiteSmoke" CornerRadius="20">
-                <StackPanel Orientation="Vertical">
-                    <TextBlock FontStyle="Italic" TextWrapping="WrapWholeWords" Text="Application development" FontSize="28" FontFamily="Segoe UI"/>
-                </StackPanel>
-            </Border>
-
-            <Border Grid.Row="0" Grid.RowSpan="2" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="50,0,0,0" Padding="10,5"
-           BorderThickness="2" BorderBrush="WhiteSmoke" CornerRadius="20">
-                <StackPanel Orientation="Vertical">
-                    <TextBlock FontStyle="Italic" TextWrapping="WrapWholeWords" Text="Tools programming" FontSize="28" FontFamily="Segoe UI"/>
-                </StackPanel>
-            </Border>
-            
-            <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2" Grid.Row="4" HorizontalAlignment="Right" Margin="0,0">
-                <!--<Button HorizontalAlignment="Center"  Content="guillaume.demicheli@loctet.com" FontSize="14" Margin="0,0,0,-5" FontStyle="Oblique" FontFamily="Segoe UI" FontWeight="SemiLight"/>-->
-                <Button Margin="4,0" CornerRadius="10,10,0,0" FontSize="35" FontWeight="SemiBold" Background="LightCoral" Foreground="Black"    Padding="15,1" Content="C#"/>
-                <Button Margin="4,0" CornerRadius="10,10,0,0" FontSize="35" FontWeight="SemiBold" Background="LightYellow" Foreground="Black"   Padding="15,1" Content=".NET Core"/>
-                <Button Margin="4,0" CornerRadius="10,10,0,0" FontSize="35" FontWeight="SemiBold" Background="LightGreen" Foreground="Black"    Padding="15,1" Content="WinUI"/>
-                <Button Margin="4,0" CornerRadius="10,10,0,0" FontSize="35" FontWeight="SemiBold" Background="LightBlue" Foreground="Black"     Padding="15,1" Content="MAUI"/>
-                <Button Margin="4,0" CornerRadius="10,10,0,0" FontSize="35" FontWeight="SemiBold" Background="LightSeaGreen" Foreground="Black" Padding="15,1" Content="Xamarin"/>
-            </StackPanel>
-        </Grid>
 
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed">
 
